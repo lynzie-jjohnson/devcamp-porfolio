@@ -58,3 +58,4 @@ gem 'bootstrap', '~> 4.0.0.beta2.1'
 
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
+gem 'lj_view_tool',git: 'https://github.com/lynzie-jjohnson/lj_view_tool'

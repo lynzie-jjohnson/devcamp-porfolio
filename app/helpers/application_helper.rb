@@ -14,4 +14,8 @@ module ApplicationHelper
         content_tag(:p, greeting, class: "source_greeting")
        end 
     end
+
+    def copyright_generator
+      LJViewTool::Renderer.copyright 'Lynzie Johnson', 'All rights reserved'
+    end
 end
