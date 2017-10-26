@@ -1,0 +1,18 @@
+WEEKEND HOME WORK!!!
+
+Build a rails app that uses postgres
+
+create a resource generator for blogs
+(code to run
+rails g resource Blog title:string author:string body:text
+)
+
+create the crud functionality for blog by hand after running the generator
+
+run a controller generator called Pages, and load in 3 pages.  home, authors, and titles. 
+
+load the title information from you blogs table into the title page, and the author information into your authors page.
+
+once completed push your work to git hub and DM the link to your git hub for review.
+
+Good Luck!!!
