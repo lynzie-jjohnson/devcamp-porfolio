@@ -28,7 +28,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #011627;
+  background-color: #2F404E;
 }
 body {
   color: #fff;
@@ -165,14 +165,23 @@ body {
  */
 
  .card-body {
-   color: black;
+   background-color: #F48F76;
+   opacity: .90;
+   color: white;
    text-align: left;
  }
 
  .auth-links a {
-   color: black;
+   color: white;
  }
 
  .register-text {
   text-align: right;
+ }
+
+ .login > .card {
+   width: 22rem;
+   margin: 0 auto;
+   float: none;
+   margin-bottom: 10px;
  }
