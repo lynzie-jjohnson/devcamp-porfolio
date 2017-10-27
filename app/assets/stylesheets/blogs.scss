@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /*
  * Globals
@@ -166,6 +167,12 @@
   .blog-footer p:last-child {
     margin-bottom: 0;
   }
-  
+  /*
+   * Custom Styles
+   */
+  .social-links li a {
+    color: #4DCCBD;
+    font-size: 1.5em;
+  }
 
 
