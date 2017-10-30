@@ -73,7 +73,7 @@ body {
 }
 
 .masthead-brand {
-  margin-bottom: 50;
+  margin-bottom: 0;
 }
 
 .nav-masthead .nav-link {
@@ -98,7 +98,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 42em) {
   .masthead-brand {
     float: left;
   }
@@ -126,7 +126,7 @@ body {
  */
 
 .mastfoot {
-  color: #8B959C;
+  color: white;
 }
 
 
@@ -190,4 +190,8 @@ body {
    margin-bottom: 10px;
  }
 
- 
+ .app-nav span {
+  margin-left: 10px;
+  margin-right: 10px;
+
+ }
