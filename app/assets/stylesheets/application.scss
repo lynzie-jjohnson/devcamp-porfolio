@@ -28,7 +28,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #5F6774;
   font-family: 'Raleway', sans-serif;
 }
 body {
@@ -67,7 +66,8 @@ body {
 
 .masthead {
   margin-bottom: 2rem;
-  background-color: #374151;
+  background-color: black;
+  opacity: .8;
   width: 100%;
   
 }
@@ -197,5 +197,30 @@ body {
   height: 50px;
   text-align: center;
  }
+
+ #background {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   background: image-url('bgphoto.jpg') no-repeat;
+   background-size: cover;
+ }
+
+ .app-footer {
+   color: white;
+ }
+
+
+
+
+
+
 
  
