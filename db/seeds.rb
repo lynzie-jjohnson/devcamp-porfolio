@@ -1,9 +1,16 @@
+User.create!(
+  email: "admin@test.com",
+  name: "Admin Test",
+  password: "123456",
+  password_confirmation: "123456",
+  roles: "site_admin"
+)
+
 3.times do |topic|
   Topic.create!(title:"Topic #{topic}"
     )
 end
 puts "3 Topics created"
-
 
 
 10.times do |blog|
