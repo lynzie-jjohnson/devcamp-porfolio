@@ -32,8 +32,8 @@
    * Override Bootstrap's default container.
    */
   
-  .container {
-    max-width: 60rem;
+  .container a {
+    display: inline-block;
   }
   
   
@@ -43,7 +43,7 @@
   
   .blog-masthead {
     margin-bottom: 3rem;
-    background-color: #428bca;
+    background-color: #4DCCBD;
     -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
             box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
   }
@@ -175,13 +175,53 @@
     font-size: 1.5em;
   }
 
-  .blog-nav a {
-    display: inline-block;
+  .navbar {
+    background-color: #4DCCBD;
   }
 
 
-.blogcrumb a {
-  font-size: 1.25em;
-  margin: 0px 10px 0px 10px;
-  color: #4DCCBD;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
+   
+  nav {
+    margin: 50px;
+  }
+   
+  ul {
+    overflow: auto;
+    list-style-type: none;
+  }
+   
+  li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    padding: 0 10px;
+  }
+   
+  li:last-child {
+    border-right: none;
+  }
+   
+  li a {
+    text-decoration: none;
+    color: #ccc;
+    font: 20px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  li a:hover {
+    color: #CCA43B;
+  }
+   
+  li.active a {
+    font-weight: bold;
+    color: #333;
+  }
