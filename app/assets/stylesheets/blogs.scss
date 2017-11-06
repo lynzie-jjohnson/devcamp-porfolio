@@ -1,6 +1,6 @@
 @import "bootstrap";
 @import "font-awesome";
-
+@import "gritter";
 /*
  * Globals
  */
@@ -158,6 +158,7 @@
    */
   
   .blog-footer {
+    margin-top: 20px;
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
@@ -173,6 +174,24 @@
   .social-links li a {
     color: #4DCCBD;
     font-size: 1.5em;
+  }
+
+  .blog-nav a {
+    display: inline-block;
+  }
+
+  .comment-card > .card {
+    margin-top: 15px;
+
+  }
+
+  .comment-attribution {
+    font-size: 0.8em;
+    font-style: italic;
+  }
+
+  .comment_name {
+    font-weight: 700;
   }
 
 

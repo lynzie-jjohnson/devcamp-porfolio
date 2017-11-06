@@ -1,5 +1,9 @@
 @import "bootstrap";
+
 @import "jquery-ui";
+
+@import "gritter";
+
 body {
     min-height: 75rem;
  /* Can be removed; just added for demo purposes */
@@ -84,8 +88,8 @@ body {
   }
 
   // Custom Styles
-  .portfolio-form {
-    padding: 20px;
+  .portfolio-container {
+    padding-top: 30px;
   }
 
   // stuff that i like 
