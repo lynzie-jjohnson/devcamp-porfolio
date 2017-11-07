@@ -1,7 +1,4 @@
 module BlogsHelper
-
-   
-
     class CodeRayify < Redcarpet::Render::HTML
         def block_code(code, language)
             CodeRay.scan(code, language).div
@@ -24,6 +21,8 @@ module BlogsHelper
 
     def blog_status_color blog 
         'color: white;' if blog.draft?
+
+    end
 
 
     def gravatar_helper user
