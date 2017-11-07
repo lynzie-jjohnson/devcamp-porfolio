@@ -12,7 +12,7 @@
   }
   
   body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Quicksand', sans-serif;
     color: #555;
   }
   
@@ -22,9 +22,9 @@
   h4, .h4,
   h5, .h5,
   h6, .h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    color: #333;
+    color: #3A506B;
   }
   
   
@@ -33,7 +33,7 @@
    */
   
   .container a {
-    font: 25px/1 Helvetica, Verdana, sans-serif;
+    font-family: 'Roboto Slab', serif;
     color:#3A506B;
   }
 
@@ -200,7 +200,7 @@
   }
 
   .navbar {
-    background-color: #4DCCBD;
+    background-color: #7DD9CF;
   }
 
   .blog-sidebar-source {
@@ -210,7 +210,7 @@
   .breadcrumb a {
     margin: 0px 10px;
     font-size: 1.25em;
-    color: #4DCCBD;
+    color: #5DD0C3;
     
   }
   .blogcrumb {
@@ -222,6 +222,7 @@
     font-size: 1.25em;
     margin: 0px 10px;
   }
+
 
   * {
     margin: 0;
@@ -250,8 +251,8 @@
    
   li a {
     text-decoration: none;
-    color: #ccc;
-    font: 20px/1 Helvetica, Verdana, sans-serif;
+    color: #3A506B;
+    font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
