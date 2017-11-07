@@ -38,7 +38,19 @@
   }
 
   .blog-title {
-    color: #0B132B;
+    color: white;
+  }
+
+  .blog-header{
+    padding: 20px;
+    background-color: #9DE3DB;
+    background-opacity: 0.4;
+  }
+
+  .shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px #39958A;
+    -moz-box-shadow: 3px 3px 5px 6px #39958A;
+    -o-box-shadow: 3px 3px 5px 6px #39958A;
   }
 
   .blog-post-title a {
@@ -50,9 +62,11 @@
   /*
    * Masthead for nav
    */
+
+
   
   .blog-masthead {
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
     background-color: #4DCCBD;
     -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
             box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
