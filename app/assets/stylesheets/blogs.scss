@@ -33,7 +33,17 @@
    */
   
   .container a {
-    display: inline-block;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    color:#3A506B;
+  }
+
+  .blog-title {
+    color: #0B132B;
+  }
+
+  .blog-post-title a {
+    font: 30px/1 Helvetica, Verdana, sans-serif;
+    color:#CCA43B;
   }
   
   
@@ -183,6 +193,21 @@
     margin-top: 20px;
   }
 
+  .breadcrumb a {
+    margin: 0px 10px;
+    font-size: 1.25em;
+    color: #4DCCBD;
+    
+  }
+  .blogcrumb {
+    margin: 0px;
+  }
+
+  .blogcrumb a {
+    color: #4DCCBD;
+    font-size: 1.25em;
+    margin: 0px 10px;
+  }
 
   * {
     margin: 0;
