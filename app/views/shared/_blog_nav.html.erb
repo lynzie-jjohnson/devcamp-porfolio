@@ -1,11 +1,29 @@
-<div class="blog-masthead">
+<div class="collapse" id="navbarHeader">
     <div class="container">
-        <nav class="nav blog-nav">
-            <%= nav_helper 'nav-link', 'span'%>
-            <%= login_helper 'nav-link' %>
-
-        </nav>
+        <div class="row">
+            <div class="col-sm-12 py-4">
+                <ul class="list-unstyled">
+                    <%= nav_helper 'text-black', 'li'%>
+                    <li><%= login_helper "text-black" %></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
+
+
+<div class="navbar navbar-light nav-button shadow">
+    <div class="container d-flex justify-content-between">
+    <%= link_to "Lynzie J", root_path %>
+    <button class= "btn btn-light" "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+</div>
+
+
+
+
+
 
 

@@ -6,12 +6,16 @@
 
 body {
     min-height: 75rem;
- /* Can be removed; just added for demo purposes */
+    font-family: 'Quicksand', sans-serif;
   }
   
   .navbar { 
     background-color: #e0e0e0;
   
+  }
+
+  .navbar-brand {
+    font-family: 'Roboto Slab', serif;
   }
   
   .collapse{
@@ -40,7 +44,7 @@ body {
     padding-bottom: 6rem;
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #D9BC70;
+    background-color: #4DCCBD;
   }
   
   .jumbotron p:last-child {
@@ -61,10 +65,19 @@ body {
     padding-bottom: 3rem;
     background-color: white;
   }
+
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    font-family: 'Roboto Slab', serif;
+  }
   
   .card {
     float: left;
-    width: 33.333%;
+    width: 100%;
     padding: .75rem;
     margin-bottom: 2rem;
     border: 0;
@@ -98,11 +111,9 @@ body {
     margin: 0;
     padding: 0;
   }
-
    
   nav {
     margin: 50px;
-    float: left;
   }
    
   ul {
@@ -114,8 +125,7 @@ body {
     height: 25px;
     float: left;
     margin-right: 0px;
-    border-right: 1px solid #aaa;
-    padding: 0 20px;
+    padding: 0 10px;
   }
    
   li:last-child {
@@ -124,10 +134,9 @@ body {
    
   li a {
     text-decoration: none;
-    color: #ccc;
-    font: 25px/1 Helvetica, Verdana, sans-serif;
+    color: #3A506B;
+    font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
-   
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
