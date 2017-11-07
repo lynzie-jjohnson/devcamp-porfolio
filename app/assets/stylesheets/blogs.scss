@@ -182,6 +182,7 @@
    */
   
   .blog-footer {
+    margin-top: 20px;
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
@@ -207,6 +208,7 @@
     margin-top: 20px;
   }
 
+
   .breadcrumb a {
     margin: 0px 10px;
     font-size: 1.25em;
@@ -216,6 +218,22 @@
   .blogcrumb {
     margin: 0px;
   }
+
+  .comment-card > .card {
+    margin-top: 15px;
+
+  }
+
+  .comment-attribution {
+    font-size: 0.8em;
+    font-style: italic;
+  }
+
+  .comment_name {
+    font-weight: 700;
+  }
+
+
 
   .blogcrumb a {
     color: #4DCCBD;

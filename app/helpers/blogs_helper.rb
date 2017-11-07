@@ -1,5 +1,6 @@
 module BlogsHelper
-    
+
+   
 
     class CodeRayify < Redcarpet::Render::HTML
         def block_code(code, language)
@@ -23,6 +24,10 @@ module BlogsHelper
 
     def blog_status_color blog 
         'color: white;' if blog.draft?
+
+
+    def gravatar_helper user
+        image_tag "https://www.gravatar.com/avatar/#{Digest::MD5.hexdigest(user.email)}", width: 40
 
     end
 end

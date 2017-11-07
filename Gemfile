@@ -35,6 +35,12 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'lj_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 1.8'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
+
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'carrierwave', '~> 1.2', '>= 1.2.1'
 gem 'mini_magick', '~> 4.8'
@@ -42,6 +48,12 @@ gem 'carrierwave-aws', '~> 1.3'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.11'
 gem 'gritter', '~> 1.2'
+
 gem 'twitter', '~> 6.1'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+
+gem 'redis', '~> 4.0', '>= 4.0.1'
+gem 'twitter', '~> 6.1'
+
+
