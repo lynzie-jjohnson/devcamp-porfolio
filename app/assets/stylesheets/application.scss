@@ -78,6 +78,17 @@ h6, .h6, {
  * Header
  */
 
+ .navbar {
+  background-color: #7DD9CF;
+  top: 0px;
+ }
+
+ .container a {
+  font-family: 'Roboto Slab', serif;
+  color:#3A506B;
+}
+
+
 .masthead {
   margin-bottom: 2rem;
   background-color: black;
@@ -273,6 +284,54 @@ h6, .h6, {
   margin-bottom: 5px;
 }
 
+
+// Custom Nav Bar
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+nav {
+  margin: 50px;
+}
+ 
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+ 
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  padding: 0 10px;
+}
+ 
+li:last-child {
+  border-right: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #3A506B;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+li a:hover {
+  color: #CCA43B;
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
 
 
 
