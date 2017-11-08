@@ -79,7 +79,7 @@ h6, .h6, {
  */
 
  .navbar {
-  background-color: #7DD9CF;
+  background-color: rgba(255, 255, 255, 0.5);
  }
 
  .container a {
@@ -287,6 +287,7 @@ h6, .h6, {
 // Custom Nav Bar
 
 * {
+  margin-top: 0px;
   margin: 0;
   padding: 0;
 }
